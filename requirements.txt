@@ -1,10 +1,4 @@
-python-telegram-bot==20.7
-Flask==2.3.3
-requests==2.31.0
-python-dotenv==1.0.0
-apscheduler==3.10.4
-Pillow==10.0.0
-redis==5.0.1
-psutil==5.9.6
-email-validator==2.1.0
-pytz==2023.3
+Flask
+python-telegram-bot==20.8
+httpx
+apscheduler
