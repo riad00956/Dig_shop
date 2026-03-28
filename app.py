@@ -34,9 +34,9 @@ logging.getLogger("apscheduler").setLevel(logging.WARNING)
 warnings.filterwarnings("ignore", category=UserWarning, module="telegram")
 
 # ─── Configuration ──────────────────────────────────────────────────────────
-BOT_TOKEN   = os.environ.get("BOT_TOKEN",   "8601517042:AAHQumWfRybDByIVR6Ju-F2ebfd-t0qysdQ")
+BOT_TOKEN   = os.environ.get("BOT_TOKEN",   "8601517042:AAGewJvhxCQvfvE-cKqfgEfKlrptbITYh9E")
 ADMIN_ID    = int(os.environ.get("ADMIN_ID", "8373846582"))
-PORT        = int(os.environ.get("PORT",    5000))
+PORT        = int(os.environ.get("PORT",    1000))
 WEBHOOK_URL = os.environ.get("WEBHOOK_URL", "")
 DB_PATH     = os.environ.get("DB_PATH",     "premium_store.db")
 
